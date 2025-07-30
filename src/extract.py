@@ -6,7 +6,7 @@ csv_file_path = os.path.join("data", "netflix_titles.csv")
 try:
     df_netflix = pd.read_csv(csv_file_path)
     print("todo salio bien")
-    print(df_netflix.head())
+    print(df_netflix.isnull().sum())
 
 except FileNotFoundError:
     print(f"No se encontro el archivo en la ruta: {csv_file_path}")

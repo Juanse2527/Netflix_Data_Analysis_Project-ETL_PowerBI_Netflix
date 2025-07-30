@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+.venv/                  # Tu entorno virtual de uv
+venv/
+*.env
+.idea/                  # Si usas PyCharm u otros IDEs
+
+# Jupyter Notebooks
+.ipynb_checkpoints/     # Archivos de autoguardado de Jupyter
+
+# Archivos de Power BI
+*.pbix                  # Tu archivo de Power BI (generalmente no se versiona en Git)
+*.pbit
+*.bim
+*.abf
+
+# Directorios de datos procesados (si son generados y no son el resultado final que quieres versionar)
+# processed_data/       # Descomenta esta línea si no quieres que la carpeta processed_data/ se suba
